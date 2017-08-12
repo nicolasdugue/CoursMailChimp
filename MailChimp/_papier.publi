@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:odRoot xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:odRootM>
+			<sp:coll>1.0</sp:coll>
+			<sp:version>2017</sp:version>
+			<sp:date>Nicolas Dugué &amp; Thierry Chaillou</sp:date>
+			<sp:settings/>
+		</op:odRootM>
+		<sp:ue sc:refUri="/module_mailchimp.xml"/>
+	</op:odRoot>
+</sc:item>

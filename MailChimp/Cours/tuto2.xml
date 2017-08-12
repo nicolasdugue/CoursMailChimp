@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Premiers pas avec MailChimp : Templates</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Introduction</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Nous avons maintenant créé une liste de diffusion. Cette liste nous servira par la suite à envoyer de façon simple des newsletter à tous nos abonnés.</sc:para>
+								<sc:para xml:space="preserve">Il s'agit maintenant de créer un template, à savoir un modèle de newsletter que l'on pourra réutiliser pour toutes nos campagnes par la suite.</sc:para>
+								<sc:para xml:space="preserve">L'idée est de définir dans ce modèle une fois pour toute la forme générique de nos newsletters : les couleurs employées, les polices utilisées, les logos, les formules de politesse. Par la suite, lors de chaque campagne d'emailing, nous pourrons pour construire notre newsletter utiliser ce modèle et le personnaliser pour l'adapter à la campagne.</sc:para>
+								<sc:para xml:space="preserve">Dans la suite, nous allons voir comment créer <sc:inlineStyle role="emp">dans les grandes lignes</sc:inlineStyle> un template. En effet, les possibilités de Mailchimp sont vastes, et il est parfois nécessaire de faire appel à des compétences en design web ou infographie. Nous poserons donc seulemet les bases de l'utilisation de l'interface de création de template !</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Objectif</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Pour se donner un objectif, nous allons essayer de créer un modèle de newsletter calqué sur le design du site de l'université du Mans, un truc comme ce qu'il y a en dessous, mais à votre sauce (vous pouvez faire bien mieux j'en suis sûr !).</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/Images/TemplateObjectif.png">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Création d'un template</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Cliquer sur le menu templates tout en haut puis une fois sur la page, cliquer sur create template. Vous arrivez sur une page comme celle visible sur l'image de droite.</sc:para>
+										<sc:para xml:space="preserve">Comme vous pouvez le voir, vous avez le choix parmi plusieurs "layouts". Ces "layouts" sont des patrons de mise en page de votre newsletter que nous allons personnaliser pour créer notre template.</sc:para>
+										<sc:para xml:space="preserve">Il est également possible de directement choisir parmi les "themes" qui sont des templates pré-conçus par des graphistes. Néanmoins, pour l'apprentissage, il est plus intéressant de ne partir que d'un "layout" et de le personnaliser.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Images/TemplateCreate.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:meth>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Les zones d'un template</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/Images/TemplateAreas.png">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Globalement, il existe toujours, dans une newsletter (et c'est pareil pour un site internet), un header qui fait figure d'en-tête, un body, le corps du message, et le footer, le bas de la newsletter.</sc:para>
+								<sc:para xml:space="preserve">Chacune de ces parties est modifiable indépendamment, que ce soit son contenu (content) ou son aspect visuel (design). </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Où modifier l'aspect visuel (design) de la page ?</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/Images/TemplateDesign.png">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Tout se passe dans l'onglet Design à droite de votre fenêtre. On y retrouve d'ailleurs les trois zones de la newsletter, le header, le footer, et le body, que nous allons tout de suite modifier.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Modifier le header</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/Images/TemplateHeaderDesign.png">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">En cliquant sur Header dans l'onglet Design à droite de la page, vous pouvez modifier différents aspects du header :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">background : c'est l'arrière-plan. Vous pouvez donc modifier sa couleur en cliquant sur le champ en dessous de color ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">border : c'est la bordure, border top celle du dessus, border bottom celle d'en dessous. Ici, son nombre de pixels (son épaisseur) est à 0, elle est donc inexistante, vous pouvez néanmoins en mettre une si vous le souhaitez ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">padding : c'est la marge à l'intérieure de la zone. Ici nous spécifions qu'il existe 10pixels de marge interne en haut et en bas.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">L'image suivante résume bien la situation. Dans notre header, au centre existe le "content", le contenu : le texte ou les images d'accroche de notre newsletter. Autour, c'est la marge interne, le padding. Puis il est possible de définir une bordure (ici en vert).</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/Images/TemplateBorderPadding.png">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:meth>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Modifier le footer</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">De la même manière, il est possible de personnaliser le footer comme nous pouvons le voir. Pour coller avec le site web de l'université, vous pouvez ajouter une bordure orange en haut du footer !</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Images/TemplateFooterDesign.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:meth>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Les actions possibles sur une partie du Layout</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/Images/TemplateEditerImage.png">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Lorsque vous cliquez sur une zone du layout, une barre grise apparait en haut de cette zone. Qautre icônes existent sur cette barre, nous les détaillons de gauche à droite : </sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Ce "carré de points" sert à déplacer la zone. Il suffit de cliquer dessus, de maintenir le clic et de déplacer la souris ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Le "crayon" permet de modifier le contenu ou le design de la zone, c'est ici qu'il s'agit de cliquer ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Cette icone sert à dupliquer la zone ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">En cliquant sur cette espèce de poubelle, vous supprimerez la zone.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Editer une zone de texte</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">En cliquant sur le crayon lorsque vous êtes sur une zone de texte, vous pouvez modifier son contenu (le texte qu'il contient), son style (les couleurs et taille des polices) et ses paramètres (le nombre de colonnes sur lesquelles le texte sera affiché).</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/Images/TemplateEditerZoneDeTexte.png">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Quant au style du texte, vous pouvez modifier la police, la taille en pixels et la couleurs, tout ce qu'il y a de plus classique. Cliquez sur "save and close" en bas une fois que vous avez modifié ce que vous souhaitiez.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/Images/TemplateEditerStyleTexte.png">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:meth>
+				<sp:remind>
+					<op:pbTi>
+						<sp:title>Publipostage</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Comme expliqué précédement dans le tutoriel de création de la liste, il est possible d'utiliser les informations des abonnés pour personnaliser la newsletter. Ceci peut être fait directement dans le template dans chaque zone de texte comme ci-dessous par exemple.</sc:para>
+								<sc:para xml:space="preserve">Ainsi, *|FNAME|* et *|LNAME|* seront remplacés automatiquement par MailChimp lors de l'envoi de la newsletter par le prénom et le nom de l'abonné.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/Images/TemplatePublipostage.png">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:remind>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Editer un bouton cliquable</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">De la même manière que le texte, les boutons sont éditables. Ci-dessous, en cliquant sur le crayon, nous avons édité le bouton en bleu avec le texte adéquat et le lien vers lequel nous emmène le bouton lorsque l'on clique dessus.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/Images/TemplateEditerButtonResultat.png">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:meth>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Ajouter une zone au layout</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Dans l'image ci-dessous, vous pouvez voir qu'à droite, il existe plusieurs rectangles : "text", "boxed text", "divider". Ce sont des zones éditables qu'il est possible d'ajouter au layout de façon à le personnaliser.</sc:para>
+								<sc:para xml:space="preserve">Pour cela, faites un glisser/déposer comme ci-dessous, dans cet exemple avec une zone de texte. "Drop block here" = "Déposer la zone éditable ici".</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/Images/TemplateGlisser.png">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Editer une zone d'image</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Les zones d'image sont également éditables. MailChimp propose d'ajouter des images, soit via une url (adresse web), soit en téléchargeant (upload) celles qui sont sur votre ordinateur. Il est également possible d'éditer ces images avec Mailchimp.</sc:para>
+								<sc:para xml:space="preserve">En cliquant sur la zone d'image puis sur le "crayon" pour éditer cette zone, vous voyez à paraitre le menu à droite comme ci-dessous. En cliquant sur "Replace" dans ce menu, vous allez pouvoir télécharger une image. En cliquant sur "Edit", vous aurez accès à l'éditeur d'image.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/Images/TemplateEditerImageResult.png">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:res sc:refUri="/Images/TemplateEditorOfImage.png">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:meth>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Editer les boutons réseaux sociaux</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Dans le footer, vous trouverez normalement des boutons avec les icones de Facebook, Twitter et autres réseaux sociaux. Il est également possible de les éditer via le menu à droite, d'ajouter les bons liens, et de supprimer ou ajouter des réseaux sociaux.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/Images/TemplateSocialLink.png">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:meth>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Avant de terminer</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Avant de terminer le template, vous pouvez cliquer sur "Preview and test" tout en haut à droite. "Preview" sert à visualiser la newsletter comme elle sera affichée dans la boite mail de l'abonné ou sur son smartphone. "Test" permet d'envoyer un email de test de façon à être sûr du rendu.</sc:para>
+								<sc:para xml:space="preserve">Une fois sûr, vous pouvez cliquer sur "Save and exit" en bas à droite, votre template est terminé !</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

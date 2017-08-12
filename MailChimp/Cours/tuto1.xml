@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Premiers pas avec MailChimp : Listes</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Service as a Service</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">MailChimp est un outil de type SaaS, Service as a Service. Cet acronyme utilisé par le monde de l'entreprise n'a pas franchement beaucoup de sens pris littéralement. Il signifie simplement que le service (ici d'emailing) est offert comme un service. C'est pas vraiment plus clair non ? Mais on va faire mieux. L'idée, c'est que le service d'emailing est un service tout compris. Ainsi, ce service informatique n'est pas un logiciel qu'il est nécessaire d'acheter, d'installer, de configurer, de maintenir sur des machines qu'on a dû acheter, installer, configurer, maintenir. En fait, via un téléphone, une tablette, ou un ordinateur disposant d'un accès internet, vous pouvez vous créer un compte et accéder à Mailchimp de partout. Peu importe que vous soyez sur Mac ou Windows, tout le monde possède la même version accessible sur internet et mise à jour, configurée, maintenue par Mailchimp.</sc:para>
+								<sc:para xml:space="preserve">C'est ça le modèle SaaS, un modèle qui est très en vogue depuis quelques années dans le monde des services en informatique. D'ailleurs, parmi les outils que l'on utilisera, Asana, Canva, Wordpress, Limesurvey et Power BI existent en version SaaS.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Créer un compte</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">C'est parti, rendez-vous sur <sc:phrase role="url"><op:urlM xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:url>https://mailchimp.com/</sp:url></op:urlM>Mailchimp</sc:phrase> et cliquez sur "Sign up free". Vous allez vite le remarquer, Mailchimp est en anglais, mais on va vous accompagner pas à pas pour éviter la grosse galère en face de la langue de Shakespeare.</sc:para>
+								<sc:para xml:space="preserve">"Sign up", c'est s'inscrire, s'abonner. "Log in" ou "Sign in", c'est se connecter, action que l'on peut faire uniquement lorsque l'on est déjà inscrit.</sc:para>
+								<sc:para xml:space="preserve">Donc vous créez votre compte avec "sign up" et à l'avenir, vous vous connecterez via "log in".</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">On vous demande donc votre email, un nom d'utilisateur et un mot de passe qui doit contenir : une minuscule (lowercase), une majuscule (uppercase), un caractère spécial, 8 caractères minimum, un chiffre.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Images/inscription.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Les menus</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Sur l'accueil, on peut voir en haut en gris, le menu de l'outil avec les fonctionnalités suivantes que nous allons tout de suite apprendre à manipuler : </sc:para>
+										<sc:itemizedList>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Lists qui permet de créer des listes de destinataire à nos campagnes d'emailing. Il est possible de créer plusieurs listes ou de faire une segmentation de ces listes en différentes cibles : clients fidèles/occasionnels, jeunes/seniors, france/étranger ;</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Templates, qui signifie en français "modèle". Cela permet de créer des modèles d'email qui pourront être utilisés et adaptés à chaque campagne d'emailing ;</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Campaigns, ce sont les campagnes d'emailing qui sont paramétrés en utilisant les templates et les lists que vous aurez créées en amont.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para xml:space="preserve">Les autres éléments du menu sont :</sc:para>
+										<sc:itemizedList>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Reports, qui présente des rapports sur l'efficacité des campagne, le taux d'ouverture du mail, le taux de clic sur les liens, etc qui permettent ainsi de calculer le fameux ROI ;</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Automation qui permet de créer des campagnes d'emailing automatiquement déclenchées par des dates ou évènement (exemple : pour la saint valentin, la saint patrick, Noël, l'anniversaire d'un abonné)</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Images/Accueil.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Etape 1 : Créer une liste d'abonnés destinataires</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Cliquer sur "Lists" en haut dans le menu principal. Vous accèderez au menu décrit dans l'image à gauche.</sc:para>
+										<sc:para xml:space="preserve">Cet espace va nous permettre de créer des listes de diffusion pour nos campagnes d'emailing. Nous verrons également comment créer des segments au sein de ces listes.</sc:para>
+										<sc:para xml:space="preserve">Commençons par créer une liste en cliquant sur "Create List" à droite (au-dessus de la flèche bleue).</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Images/MenuLists.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Nous accédons à un formulaire qui va nous permettre de créer notre première liste.</sc:para>
+										<sc:para xml:space="preserve">Les champs à remplir sont :</sc:para>
+										<sc:itemizedList>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Le nom de la liste ;</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">L'email qui apparaitra en champ from à chaque envoie de newsletter ;</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Le nom par défaut correspondant à l'envoyeur de la newsletter ;</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">"Remind people how they signed up to your list" -&gt; "Rappelez au gens comment ils se sont inscrits à la liste"</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Le nom de l'entreprise/asso/orga ;</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Son adresse</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para xml:space="preserve">Il est important de remplir ces champs. Mailchimp s'en servira pour remplir par défaut vos templates avec ces informations sur vous, votre organisation et sur la liste de diffusion.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Images/ListCreateForm1.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Enfin, on vous demande dans ce formulaire comment vous voulez recevoir les informations concernant les abonnements/désabonnements à votre liste de diffusion.</sc:para>
+										<sc:para xml:space="preserve">En choisissant "daily", vous aurez un résumé par jour, one-by-one vous enverra un mail à chaque abonnement ou désabonnement.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Images/ListCreateForm2.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">La liste a été créée avec succès ;)</sc:para>
+										<sc:para xml:space="preserve">Néanmoins, Mailchimp vous fait savoir à juste titre que celle-ci est vide : "You have no contacts". Il n'y a pour le moment aucun abonnés.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Images/ListCreated.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:info>
+				<sp:warning>
+					<op:pbTi>
+						<sp:title>Les informations du formulaires remplissent votre newsletter</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Comme explicité ci-dessus, les informations que vous rentrez dans le formulaire sont ensuite utilisées pour remplir automatiquement certaines parties de vos newsletters que MailChimp créera par défaut.</sc:para>
+								<sc:para xml:space="preserve">Ainsi par exemple, voici dans la première image ci-dessous ce que MailChimp remplit par défaut parfois en bas de newsletter. On remarque de nombreux "*|blabla|*". Ces "*|blabla|*" sont remplacés automatiquement lors de l'envoi de la newsletter à vos abonnés par les informations remplies dans le formulaire, voir deuxième image ci-dessous.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/Images/TemplateFooterGenerique.png">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:res sc:refUri="/Images/TemplateFooterRempli.png">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:warning>
+				<sp:rem>
+					<op:pbTi>
+						<sp:title>Comment fonctionnent les abonnements à la liste ?</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Nous venons de voir que nous pouvons recevoir un résumé sur les abonnements/désabonnements à notre liste de diffusion... Mais comment les internautes font-ils pour s'y abonner ?</sc:para>
+										<sc:para xml:space="preserve">Lorsque vous avez créé la liste, vous pouvez cliquer sur l'onglet "sign up forms" de cette liste.</sc:para>
+										<sc:para xml:space="preserve">Vous accèderez ainsi au menu visible à gauche. Un "form" est un "formulaire" donc un "sign up form" est un formulaire d'inscription. Vous voyez qu'il existe plusieurs types de formulaires. Les formulaires "embedded" peuvent être "intégrés" sur un site web/blog. Les "pop up" également, un "pop up" étant une fenetre (néervante) qui s'ouvre automatiquement lors de la navigation.</sc:para>
+										<sc:para xml:space="preserve">Nous allons nous considérer les General forms.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Images/ListSignUpForm1.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">En arrivant sur cette page, vous allez pouvoir personnaliser votre "General Form".</sc:para>
+										<sc:para xml:space="preserve">Vous trouvez également un champ "Sign up from URL" qui est l'adresse web à laquelle votre formulaire d'inscription existera. Via ce lien, n'importe qui pourra donc s'inscrire à votre newsletter !</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Images/ListCreateForm2.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:rem>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Étape 2 : Ajouter des abonnés à cette liste</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Maintenant que nous avons créé notre liste et vu comment fonctionnaient les formulaires d'inscription, nous allons voir comment ajouter des abonnés automatiquement. Ils peuvent être des clients ou des adhérents dans le cas d'une association, néanmoins, attention à ce que ces utilisateurs aient bien donné leur accord pour être inscrits à la liste ! </sc:para>
+										<sc:para xml:space="preserve">Dans le menu Add contacts de votre liste, cliquer sur Import contacts. Vous devriez tomber face au menu visible à droite. Choisissez "csv or tab delimited text file". "Tab delimited text file" signifie "Fichier séparé par des tabulations".</sc:para>
+										<sc:para xml:space="preserve">Vous pouvez utiliser le fichier en téléchargement ci-dessous (listeBidon.csv) qui contient deux "abonnés" (d'où le nom), le premier est une adresse gmail à laquelle les professeurs d'informatique ont accès pour ce cours sur MailChimp. La seconde est une adresse jetable consultable ici : http://www.yopmail.com/en/?login=thierrychailloufake</sc:para>
+										<sc:para xml:space="preserve">Ce fichier vous permettra de tester le fonctionnement de votre liste. </sc:para>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Ajouter y votre adresse de l'université du Mans.</sc:inlineStyle></sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Images/ListImportContacts.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:int sc:refUri="/fichiers/listeBidon.csv">
+							<op:instructionM/>
+						</sp:int>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Comme l'indique la capture d'écran à gauche, MailChimp détecte que votre fichier contient trois colonnes (séparées par des tabulations qu'il détecte). Il ne vous reste qu'à dire à MailChimp quelles sont ces colonnes comme nous l'avons fait sur cette capture d'écran.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Images/ListImportContactsColumns.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Puis, indiquez que cette liste de contacts est une liste de nouveux inscrits : "suscribers". En effet, il est également possible d'importer des listes d'utilisateurs souhaitant se désabonner.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Images/ListImportContactsFinal.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Vous pouvez enfin voir votre liste avec les contacts importés !</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Images/ListsContactsImported.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:info>
+				<sp:rem>
+					<op:pbTi>
+						<sp:title>List fields</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Sur votre liste, dans le menu Settings / List fields and *|MERGE|* tags, vous pouvez observer le contenu ci-dessous. Que signifie ce tableau ? Il s'agit en fait de simplifier le publipostage. L'idée est de pouvoir envoyer une newsletter personnalisée à vos abonnés. La grande majorité du contenu sera la même, mais certains contenus pourront être personnalisés. Ainsi, en tapant "Bonjour *|FNAME|* *|LNAME|*" en début de newsletter, l'abonné Thierry Chaillou recevra "Bonjour Thierry Chaillou" s'il a été correctement importé.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/Images/settingsListFields.png">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:rem>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Etape 3 : Créer un segment</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Il peut être utile de segmenter une liste de diffusion pour mieux cibler son public lors d'une campagne promotionnelle.</sc:para>
+								<sc:para xml:space="preserve">Dans le cas suivant, on souhaite par exemple cibler les inscrits à l'université. Pour cela, on considère les utilisateurs ayant renseigné une adresse mail contenant "univ-lemans.fr".</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Pour créer un segment, cliquer sur "Create a segment" dans le bandeau noir du tableau listant les contacts de votre liste.</sc:para>
+										<sc:para xml:space="preserve">Nous allons choisir de segmenter selon l'adresse email de nos contacts comme on peut le voir sur l'image de droite.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Images/ListCreateSegment.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Voici à quoi ressemble notre critère de segmentation à gauche ! Une fois validé, on peut voir que le segment ne contient plus que votre adresse email université. Pour fermer le segment et revenir à la liste, il s'agit de cliquer sur la croix à droite du bandeau noir situé en haut du tableau listant les contacts.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Images/ListsCreateSegmentCriteria.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Etape 4 : Vérifier votre email</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Pour terminer ce tutoriel de création d'une liste, il s'agit de vérifier l'email que vous avez renseigné comme allant être le champ "from" lors de la création de votre liste.</sc:para>
+								<sc:para xml:space="preserve">Pour cela, cliquez sur Settings/List names and default dans le menu de votre liste.</sc:para>
+								<sc:para xml:space="preserve">En dessous du champ "Default From email adress", on vous propose de vérifier votre adresse. Suivez les consignes et votre adresse mail sera validée. Votre liste est ainsi créée et validée. Dans la suite, nous allons voir comment créer un template, un modèle de mail qui nous servira pour nos campagnes d'emailing.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

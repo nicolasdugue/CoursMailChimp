@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Premiers pas avec MailChimp : Campagnes</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Campagne d'emailing</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Nous avons créé une liste de diffusion qui nous servir à envoyer de façon simple des newsletter à tous nos abonnés. Nous avons également créer un template, modèle de nos futures newsletters. Il ne reste plus qu'à créer une campagne.</sc:para>
+								<sc:para xml:space="preserve">Vous allez voir, c'est très simple et très rapide. Tout le travail a déjà été fait en amont !</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Tout d'abord, cliquez tout en haut sur le menu Campaigns. Puis cliquez sur "Create campaign". Choisissez ensuite "Create an Email" et non "Create an Ad". Donnez un nom à votre campagne et décrivez la dans les formulaires qui suivront.</sc:para>
+								<sc:para xml:space="preserve">Vous pourrez ensuite choisir à qui est destinée la campagne, à une liste entière, ou un segment, comme ci-dessous.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/Images/CampagneCreation.png">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Puis vous pourrez choisir le template avec le menu "Saved templates". Vous pourrez ensuite adapter ce template : changer son contenu pour cette newsletter en particulier. </sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/Images/CampagneListe.png">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Une fois validée le contenu de votre newletter, votre campagne est créée !</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/Images/CampagneFin.png">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>
