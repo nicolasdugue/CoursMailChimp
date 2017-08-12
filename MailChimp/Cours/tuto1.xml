@@ -14,7 +14,7 @@
 						<sp:txt>
 							<op:txt>
 								<sc:para xml:space="preserve">MailChimp est un outil de type SaaS, Service as a Service. Cet acronyme utilisé par le monde de l'entreprise n'a pas franchement beaucoup de sens pris littéralement. Il signifie simplement que le service (ici d'emailing) est offert comme un service. C'est pas vraiment plus clair non ? Mais on va faire mieux. L'idée, c'est que le service d'emailing est un service tout compris. Ainsi, ce service informatique n'est pas un logiciel qu'il est nécessaire d'acheter, d'installer, de configurer, de maintenir sur des machines qu'on a dû acheter, installer, configurer, maintenir. En fait, via un téléphone, une tablette, ou un ordinateur disposant d'un accès internet, vous pouvez vous créer un compte et accéder à Mailchimp de partout. Peu importe que vous soyez sur Mac ou Windows, tout le monde possède la même version accessible sur internet et mise à jour, configurée, maintenue par Mailchimp.</sc:para>
-								<sc:para xml:space="preserve">C'est ça le modèle SaaS, un modèle qui est très en vogue depuis quelques années dans le monde des services en informatique. D'ailleurs, parmi les outils que l'on utilisera, Asana, Canva, Wordpress, Limesurvey et Power BI existent en version SaaS.</sc:para>
+								<sc:para xml:space="preserve">C'est ça le modèle SaaS, un modèle qui est très en vogue depuis quelques années dans le monde des services en informatique. D'ailleurs, parmi les outils que l'on utilisera : Asana, Canva, Wordpress, Limesurvey et Power BI existent en version SaaS.</sc:para>
 							</op:txt>
 						</sp:txt>
 					</op:res>
@@ -58,10 +58,10 @@
 								</op:txtResM>
 								<sp:txt>
 									<op:txt>
-										<sc:para xml:space="preserve">Sur l'accueil, on peut voir en haut en gris, le menu de l'outil avec les fonctionnalités suivantes que nous allons tout de suite apprendre à manipuler : </sc:para>
+										<sc:para xml:space="preserve">Sur l'accueil, on peut voir en haut en gris (voir image de droite), le menu de l'outil avec les fonctionnalités suivantes que nous allons tout de suite apprendre à manipuler : </sc:para>
 										<sc:itemizedList>
 											<sc:listItem>
-												<sc:para xml:space="preserve">Lists qui permet de créer des listes de destinataire à nos campagnes d'emailing. Il est possible de créer plusieurs listes ou de faire une segmentation de ces listes en différentes cibles : clients fidèles/occasionnels, jeunes/seniors, france/étranger ;</sc:para>
+												<sc:para xml:space="preserve">Lists qui permet de créer des listes de destinataire pour nos campagnes d'emailing. Il est possible de créer plusieurs listes ou de faire une segmentation de ces listes en différentes cibles : clients fidèles/occasionnels, jeunes/seniors, france/étranger ;</sc:para>
 											</sc:listItem>
 											<sc:listItem>
 												<sc:para xml:space="preserve">Templates, qui signifie en français "modèle". Cela permet de créer des modèles d'email qui pourront être utilisés et adaptés à chaque campagne d'emailing ;</sc:para>
@@ -120,7 +120,7 @@
 												<sc:para xml:space="preserve">Le nom de la liste ;</sc:para>
 											</sc:listItem>
 											<sc:listItem>
-												<sc:para xml:space="preserve">L'email qui apparaitra en champ from à chaque envoie de newsletter ;</sc:para>
+												<sc:para xml:space="preserve">L'email qui apparaitra en champ <sc:inlineStyle role="spec">from</sc:inlineStyle> à chaque envoi de newsletter ;</sc:para>
 											</sc:listItem>
 											<sc:listItem>
 												<sc:para xml:space="preserve">Le nom par défaut correspondant à l'envoyeur de la newsletter ;</sc:para>
@@ -204,7 +204,7 @@
 									<op:txt>
 										<sc:para xml:space="preserve">Nous venons de voir que nous pouvons recevoir un résumé sur les abonnements/désabonnements à notre liste de diffusion... Mais comment les internautes font-ils pour s'y abonner ?</sc:para>
 										<sc:para xml:space="preserve">Lorsque vous avez créé la liste, vous pouvez cliquer sur l'onglet "sign up forms" de cette liste.</sc:para>
-										<sc:para xml:space="preserve">Vous accèderez ainsi au menu visible à gauche. Un "form" est un "formulaire" donc un "sign up form" est un formulaire d'inscription. Vous voyez qu'il existe plusieurs types de formulaires. Les formulaires "embedded" peuvent être "intégrés" sur un site web/blog. Les "pop up" également, un "pop up" étant une fenetre (néervante) qui s'ouvre automatiquement lors de la navigation.</sc:para>
+										<sc:para xml:space="preserve">Vous accèderez ainsi au menu visible à gauche. Un "form" est un "formulaire" donc un "sign up form" est un formulaire d'inscription. Vous voyez qu'il existe plusieurs types de formulaires. Les formulaires "embedded" peuvent être "intégrés" sur un site web/blog. Les "pop up" également, un "pop up" étant une fenetre (énervante) qui s'ouvre automatiquement lors de la navigation.</sc:para>
 										<sc:para xml:space="preserve">Nous allons nous considérer les General forms.</sc:para>
 									</op:txt>
 								</sp:txt>
@@ -242,8 +242,6 @@
 										<sc:para xml:space="preserve">Maintenant que nous avons créé notre liste et vu comment fonctionnaient les formulaires d'inscription, nous allons voir comment ajouter des abonnés automatiquement. Ils peuvent être des clients ou des adhérents dans le cas d'une association, néanmoins, attention à ce que ces utilisateurs aient bien donné leur accord pour être inscrits à la liste ! </sc:para>
 										<sc:para xml:space="preserve">Dans le menu Add contacts de votre liste, cliquer sur Import contacts. Vous devriez tomber face au menu visible à droite. Choisissez "csv or tab delimited text file". "Tab delimited text file" signifie "Fichier séparé par des tabulations".</sc:para>
 										<sc:para xml:space="preserve">Vous pouvez utiliser le fichier en téléchargement ci-dessous (listeBidon.csv) qui contient deux "abonnés" (d'où le nom), le premier est une adresse gmail à laquelle les professeurs d'informatique ont accès pour ce cours sur MailChimp. La seconde est une adresse jetable consultable ici : http://www.yopmail.com/en/?login=thierrychailloufake</sc:para>
-										<sc:para xml:space="preserve">Ce fichier vous permettra de tester le fonctionnement de votre liste. </sc:para>
-										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Ajouter y votre adresse de l'université du Mans.</sc:inlineStyle></sc:para>
 									</op:txt>
 								</sp:txt>
 								<sp:img sc:refUri="/Images/ListImportContacts.png"/>
@@ -252,6 +250,12 @@
 						<sp:int sc:refUri="/fichiers/listeBidon.csv">
 							<op:instructionM/>
 						</sp:int>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Ce fichier vous permettra de tester le fonctionnement de votre liste. </sc:para>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Ajoutez y votre adresse de l'université du Mans.</sc:inlineStyle></sc:para>
+							</op:txt>
+						</sp:txt>
 						<sp:txtRes>
 							<op:txtRes>
 								<op:txtResM>

@@ -61,24 +61,24 @@
 										<sc:para xml:space="preserve">Les destinataires de votre campagne d'email doivent avoir eux-mêmes souscrits à votre newsletter ;</sc:para>
 									</sc:listItem>
 									<sc:listItem>
-										<sc:para xml:space="preserve">Les destinataires doivent disposer d'un moyen simple de ne plus recevoir d'email dans votre part en se désabonnant.</sc:para>
+										<sc:para xml:space="preserve">Les destinataires doivent disposer d'un moyen simple de ne plus recevoir d'email de votre part en se désabonnant.</sc:para>
 									</sc:listItem>
 								</sc:itemizedList>
-								<sc:para xml:space="preserve">Encore une fois, Mailchimp va nous aider à respecter correctement ces règles, en nous rappelant la première, et en facilitant l'ajout de liens permettant la désinscription des abonnés dans chacun de nos emails.</sc:para>
+								<sc:para xml:space="preserve">Mailchimp va nous aider à respecter correctement ces règles, en nous rappelant la première, et en facilitant l'ajout de liens permettant la désinscription des abonnés dans chacun de nos emails.</sc:para>
 							</op:txt>
 						</sp:txt>
 					</op:res>
 				</sp:warning>
 				<sp:info>
 					<op:pbTi>
-						<sp:title>Pourquoi MailChimp ?</sp:title>
+						<sp:title>Pourquoi MailChimp pour l'emailing ?</sp:title>
 					</op:pbTi>
 					<op:res>
 						<sp:txt>
 							<op:txt>
 								<sc:itemizedList>
 									<sc:listItem>
-										<sc:para xml:space="preserve">La version gratuite eest sans limite de temps, contrairement à Sarbacane qui est par exemple limité à 30 jours ;</sc:para>
+										<sc:para xml:space="preserve">La version gratuite est sans limite de temps, contrairement à Sarbacane qui est par exemple limité à 30 jours ;</sc:para>
 									</sc:listItem>
 									<sc:listItem>
 										<sc:para xml:space="preserve">La version gratuite donne accès à 12 000 mails par mois vers 2000 destinataires différents ;</sc:para>

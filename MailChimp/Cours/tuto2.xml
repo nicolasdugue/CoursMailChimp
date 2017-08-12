@@ -84,7 +84,7 @@
 						</sp:res>
 						<sp:txt>
 							<op:txt>
-								<sc:para xml:space="preserve">Tout se passe dans l'onglet Design à droite de votre fenêtre. On y retrouve d'ailleurs les trois zones de la newsletter, le header, le footer, et le body, que nous allons tout de suite modifier.</sc:para>
+								<sc:para xml:space="preserve">Tout se passe dans l'onglet Design à droite de votre fenêtre. On y retrouve d'ailleurs les trois zones de la newsletter, le footer, le body,  et le header,que nous allons tout de suite modifier.</sc:para>
 							</op:txt>
 						</sp:txt>
 					</op:res>
@@ -149,10 +149,10 @@
 						</sp:res>
 						<sp:txt>
 							<op:txt>
-								<sc:para xml:space="preserve">Lorsque vous cliquez sur une zone du layout, une barre grise apparait en haut de cette zone. Qautre icônes existent sur cette barre, nous les détaillons de gauche à droite : </sc:para>
+								<sc:para xml:space="preserve">Lorsque vous cliquez sur une zone du layout, une barre grise apparait en haut de cette zone. Quatre icônes existent sur cette barre, nous les détaillons de gauche à droite : </sc:para>
 								<sc:itemizedList>
 									<sc:listItem>
-										<sc:para xml:space="preserve">Ce "carré de points" sert à déplacer la zone. Il suffit de cliquer dessus, de maintenir le clic et de déplacer la souris ;</sc:para>
+										<sc:para xml:space="preserve">Ce "carré de points" sert à déplacer la zone. Il suffit de cliquer dessus, de maintenir le clic et de déplacer la souris (glisser/déposer ou drag and drop en anglais) ;</sc:para>
 									</sc:listItem>
 									<sc:listItem>
 										<sc:para xml:space="preserve">Le "crayon" permet de modifier le contenu ou le design de la zone, c'est ici qu'il s'agit de cliquer ;</sc:para>
@@ -183,7 +183,7 @@
 						</sp:res>
 						<sp:txt>
 							<op:txt>
-								<sc:para xml:space="preserve">Quant au style du texte, vous pouvez modifier la police, la taille en pixels et la couleurs, tout ce qu'il y a de plus classique. Cliquez sur "save and close" en bas une fois que vous avez modifié ce que vous souhaitiez.</sc:para>
+								<sc:para xml:space="preserve">Quant au style du texte, vous pouvez modifier la police, la taille en pixels et la couleur, tout ce qu'il y a de plus classique. Cliquez sur "save and close" en bas une fois que vous avez modifié ce que vous souhaitiez.</sc:para>
 							</op:txt>
 						</sp:txt>
 						<sp:res sc:refUri="/Images/TemplateEditerStyleTexte.png">
