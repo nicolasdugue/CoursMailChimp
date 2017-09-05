@@ -8,12 +8,12 @@
 			<op:pb>
 				<sp:def>
 					<op:pbTi>
-						<sp:title>Service as a Service</sp:title>
+						<sp:title>Software as a Service</sp:title>
 					</op:pbTi>
 					<op:res>
 						<sp:txt>
 							<op:txt>
-								<sc:para xml:space="preserve">MailChimp est un outil de type SaaS, Service as a Service. Cet acronyme utilisé par le monde de l'entreprise n'a pas franchement beaucoup de sens pris littéralement. Il signifie simplement que le service (ici d'emailing) est offert comme un service. C'est pas vraiment plus clair non ? Mais on va faire mieux. L'idée, c'est que le service d'emailing est un service tout compris. Ainsi, ce service informatique n'est pas un logiciel qu'il est nécessaire d'acheter, d'installer, de configurer, de maintenir sur des machines qu'on a dû acheter, installer, configurer, maintenir. En fait, via un téléphone, une tablette, ou un ordinateur disposant d'un accès internet, vous pouvez vous créer un compte et accéder à Mailchimp de partout. Peu importe que vous soyez sur Mac ou Windows, tout le monde possède la même version accessible sur internet et mise à jour, configurée, maintenue par Mailchimp.</sc:para>
+								<sc:para xml:space="preserve">MailChimp est un outil de type SaaS, Software as a Service. Cet acronyme utilisé par le monde de l'entreprise n'a pas franchement beaucoup de sens pris littéralement. Il signifie simplement que le logiciel (ici d'emailing) est offert comme un service. C'est pas vraiment plus clair non ? Mais on va faire mieux. L'idée, c'est que le logiciel d'emailing est un service tout compris. Ainsi, ce service informatique n'est pas un logiciel qu'il est nécessaire d'acheter, d'installer, de configurer, de maintenir sur des machines qu'on a dû acheter, installer, configurer, maintenir. En fait, via un téléphone, une tablette, ou un ordinateur disposant d'un accès internet, vous pouvez vous créer un compte et accéder à Mailchimp de partout. Peu importe que vous soyez sur Mac ou Windows, tout le monde possède la même version accessible sur internet et mise à jour, configurée, maintenue par Mailchimp.</sc:para>
 								<sc:para xml:space="preserve">C'est ça le modèle SaaS, un modèle qui est très en vogue depuis quelques années dans le monde des services en informatique. D'ailleurs, parmi les outils que l'on utilisera : Asana, Canva, Wordpress, Limesurvey et Power BI existent en version SaaS.</sc:para>
 							</op:txt>
 						</sp:txt>
